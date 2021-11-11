@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6611e056d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\ardoise.css">
+
+    <script src="js/classes/ColorPalette.class.js"></script>
+    <script src="js/classes/Pen.class.js"></script>
+    <script src="js/classes/Slate.class.js"></script>
+</head>
+<body>
+    <div class="haut">
+        <img src="301zqt.svg" alt="">
+        <h1>Ardoise magique</h1>
+    </div>
+<div class="canvas">
+    <canvas width="600px" height="500px" id="canvas"></canvas>
+    <canvas width="400px" height="400px" class="palette" id="palette"></canvas>
+</div>
+
+    <hr>
+    <ul>
+        <li class="title"> Outils</li>
+        <li>
+            <button class="eraser"><img src="88bkta.svg" alt=""></i></button>
+        </li>
+        <li>
+            <button class="paint"><img src="gt6okx.svg" alt=""></button>
+        </li>
+    </ul>
+    <ul> 
+        <li class="title"> Couleur</li>  
+        <li>
+            <div class="circle" id="black" style="background-color:black"></div>
+        </li>
+        <li>
+            <div class="circle" id="chocolate" style="background-color:chocolate"></div>
+        </li>
+        <li>
+            <div class="circle" id="crimson" style="background-color:crimson"></div>
+        </li>
+        <li>
+            <div class="circle" id="goldenrod" style="background-color:goldenrod"></div>
+        </li>
+        <li>
+            <div class="circle" id="green" style="background-color:green"></div>
+        </li>
+        <li>
+            <div class="circle" id="lightskyblue" style="background-color:lightskyblue"></div>
+        </li>
+        <li>
+            <div class="circle" id="mediumblue" style="background-color:mediumblue"></div>
+        </li>
+    </ul>
+    <ul> 
+        <li class="title"> Epaisseur</li>
+        <li>
+            <button class="fin">Fin</button>
+        </li>
+        <li>
+            <button class="normal">Normal</button>
+        </li>
+        <li>
+            <button class="epais">Epais</button>
+        </li>
+    </ul>
+
+    <script src="js\main.js"></script>
+</body>
+</html>
